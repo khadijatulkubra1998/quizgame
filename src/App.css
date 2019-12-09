@@ -1,0 +1,82 @@
+
+.App {
+  text-align: center;
+  cursor: pointer;
+  background: rgb(116,195,34);
+  background: linear-gradient(0deg, rgba(116,195,34,1) 0%, rgba(45,126,253,1) 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p.ui.floating.message.selected {
+  background: rgb(9,83,121);
+  background: linear-gradient(90deg, rgba(9,83,121,1) 35%, rgba(0,255,175,1) 100%);
+  color: white;
+  text-shadow: 2px 2px 2px #0F0604;
+}
+
+p {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  color: white;
+  background: rgb(116,195,34);
+  background: linear-gradient(0deg, rgba(116,195,34,1) 0%, rgba(45,126,253,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  border: 1px solid black;
+  padding: 10px 2em;
+  background: rgb(9,83,121);
+  background: linear-gradient(90deg, rgba(9,83,121,1) 35%, rgba(0,255,175,1) 100%);
+  -webkit-box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+  box-shadow: 9px 10px 15px -5px rgba(0,0,0,0.75);
+  text-shadow: 2px 2px 2px #0F0604;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #0F0604;
+}
+span {
+  text-shadow: 2px 2px 2px #0F0604;
+  font-size: 20px;
+}
+h3 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px #0F0604;
+}
